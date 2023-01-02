@@ -27,11 +27,12 @@ list=(
 sudo pacman -S --needed --noconfirm ${list[@]}
 
 yaylist=(
+	rofi-greenclip
 	ly
 	etcher-bin
 	brave-bin
 )
 
-yay -S --needed --noconfirm ${yaylist[@]}
+yay -S --needed --needed --noconfirm ${yaylist[@]}
 
 

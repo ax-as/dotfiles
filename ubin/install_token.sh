@@ -15,5 +15,4 @@ yaylist=(
 yay -S --needed --noconfirm ${yaylist[@]}
 
 
-# echo "module:/usb/lib/pkcs11/libeToken.so" > /etc/pkcs11/modules/libeToken.so 
-# module:/usr/lib/pkcs11/libeToken.so
+sudo echo "module:/usb/lib/pkcs11/libeToken.so" > /etc/pkcs11/modules/libeToken.so 
