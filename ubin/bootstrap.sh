@@ -33,3 +33,5 @@ yaylist=(
 )
 
 yay -S --needed --noconfirm ${yaylist[@]}
+
+
