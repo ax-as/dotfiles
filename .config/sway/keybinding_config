@@ -157,7 +157,7 @@ bindsym $mod+Shift+q kill
 # Kill focused window
 bindsym --no-repeat $mod+w kill    
 # Open Application Launcher
-bindsym --no-repeat $mod+Space exec rofi -theme solarized -show drun    
+bindsym --no-repeat $mod+Space exec wofi -theme solarized -show drun    
 # Open Application Launcher
 bindsym --no-repeat $mod+Shift+Space exec rofi -modi run -theme solarized -show run    
 # Clipboard history

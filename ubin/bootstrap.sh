@@ -20,7 +20,7 @@ list=(
 	z
 	openssh
 	i3status-rust
-	sway
+#	sway
 	ttf-font-awesome
 	)
 
